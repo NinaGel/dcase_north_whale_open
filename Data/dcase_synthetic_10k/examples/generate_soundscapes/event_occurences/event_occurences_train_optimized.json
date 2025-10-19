@@ -1,0 +1,278 @@
+{
+  "Alarm_bell_ringing": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 10,
+      "mean_events": 4,
+      "classes": [
+        "Alarm_bell_ringing",
+        "Cat",
+        "Dog",
+        "Speech"
+      ],
+      "probas": [
+        0.5,
+        0.05,
+        0.1,
+        0.35
+      ]
+    }
+  },
+  "Blender": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 8,
+      "mean_events": 3,
+      "classes": [
+        "Blender",
+        "Dishes",
+        "Frying",
+        "Running_water",
+        "Speech"
+      ],
+      "probas": [
+        0.3,
+        0.2,
+        0.05,
+        0.15,
+        0.3
+      ]
+    }
+  },
+  "Cat": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 9,
+      "mean_events": 4,
+      "classes": [
+        "Alarm_bell_ringing",
+        "Cat",
+        "Dishes",
+        "Dog",
+        "Speech"
+      ],
+      "probas": [
+        0.03,
+        0.55,
+        0.05,
+        0.12,
+        0.25
+      ]
+    }
+  },
+  "Dishes": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 10,
+      "mean_events": 4,
+      "classes": [
+        "Blender",
+        "Dishes",
+        "Frying",
+        "Running_water",
+        "Speech"
+      ],
+      "probas": [
+        0.08,
+        0.5,
+        0.12,
+        0.08,
+        0.22
+      ]
+    }
+  },
+  "Dog": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 12,
+      "mean_events": 4,
+      "classes": [
+        "Alarm_bell_ringing",
+        "Cat",
+        "Dog",
+        "Speech"
+      ],
+      "probas": [
+        0.02,
+        0.05,
+        0.58,
+        0.35
+      ]
+    }
+  },
+  "Electric_shaver_toothbrush": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 5,
+      "mean_events": 3,
+      "classes": [
+        "Electric_shaver_toothbrush",
+        "Running_water",
+        "Speech"
+      ],
+      "probas": [
+        0.35,
+        0.25,
+        0.4
+      ]
+    }
+  },
+  "Frying": {
+    "proba": 0.05,
+    "co-occurences": {
+      "max_events": 10,
+      "mean_events": 4,
+      "classes": [
+        "Blender",
+        "Dishes",
+        "Frying",
+        "Running_water",
+        "Speech"
+      ],
+      "probas": [
+        0.05,
+        0.35,
+        0.25,
+        0.1,
+        0.25
+      ]
+    }
+  },
+  "Frying_nOff": {
+    "proba": 0.05,
+    "co-occurences": {
+      "max_events": 10,
+      "mean_events": 4,
+      "classes": [
+        "Dishes",
+        "Frying",
+        "Running_water",
+        "Speech"
+      ],
+      "probas": [
+        0.4,
+        0.15,
+        0.15,
+        0.3
+      ]
+    }
+  },
+  "Frying_nOn_nOff": {
+    "proba": 0.02,
+    "co-occurences": {
+      "max_events": 10,
+      "mean_events": 4,
+      "classes": [
+        "Dishes",
+        "Running_water",
+        "Speech"
+      ],
+      "probas": [
+        0.45,
+        0.2,
+        0.35
+      ]
+    }
+  },
+  "Running_water": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 8,
+      "mean_events": 3,
+      "classes": [
+        "Dishes",
+        "Electric_shaver_toothbrush",
+        "Frying",
+        "Running_water",
+        "Speech"
+      ],
+      "probas": [
+        0.25,
+        0.1,
+        0.05,
+        0.35,
+        0.25
+      ]
+    }
+  },
+  "Speech": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 12,
+      "mean_events": 5,
+      "classes": [
+        "Alarm_bell_ringing",
+        "Blender",
+        "Cat",
+        "Dishes",
+        "Dog",
+        "Electric_shaver_toothbrush",
+        "Frying",
+        "Running_water",
+        "Speech",
+        "Vacuum_cleaner"
+      ],
+      "probas": [
+        0.08,
+        0.05,
+        0.08,
+        0.12,
+        0.12,
+        0.03,
+        0.05,
+        0.05,
+        0.4,
+        0.02
+      ]
+    }
+  },
+  "Vacuum_cleaner": {
+    "proba": 0.08,
+    "co-occurences": {
+      "max_events": 5,
+      "mean_events": 3,
+      "classes": [
+        "Dog",
+        "Speech",
+        "Vacuum_cleaner"
+      ],
+      "probas": [
+        0.25,
+        0.4,
+        0.35
+      ]
+    }
+  },
+  "Vacuum_cleaner_nOn": {
+    "proba": 0.02,
+    "co-occurences": {
+      "max_events": 5,
+      "mean_events": 3,
+      "classes": [
+        "Dog",
+        "Speech",
+        "Vacuum_cleaner"
+      ],
+      "probas": [
+        0.3,
+        0.5,
+        0.2
+      ]
+    }
+  },
+  "Vacuum_cleaner_nOn_nOff": {
+    "proba": 0.02,
+    "co-occurences": {
+      "max_events": 5,
+      "mean_events": 3,
+      "classes": [
+        "Dog",
+        "Speech"
+      ],
+      "probas": [
+        0.4,
+        0.6
+      ]
+    }
+  }
+}
